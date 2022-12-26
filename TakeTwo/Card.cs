@@ -14,8 +14,13 @@ namespace TakeTwo
         public string Sprite;
 
         /// <summary>
-        /// Состояние карты.
+        /// Позиция карты.
         /// </summary>
-        public CardState State;
+        public Vector2Int Position;
+
+        /// <summary>
+        /// Карта вскрыта и её может видеть игрок.
+        /// </summary>
+        public bool IsOpen;
     }
 }

@@ -12,6 +12,11 @@ namespace TakeTwo
     internal class Deck
     {
         /// <summary>
+        /// Размер карты колоды.
+        /// </summary>
+        public Vector2Int CardSize;
+
+        /// <summary>
         /// Рубашка.
         /// </summary>
         public string CardShirt;

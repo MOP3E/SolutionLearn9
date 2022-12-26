@@ -9,17 +9,29 @@ namespace TakeTwo
     internal enum GameState
     {
         /// <summary>
-        /// Начальный экран игры.
+        /// Начальный экран игры с главным меню.
         /// </summary>
-        StartScreen,
+        MainMenu,
+        /// <summary>
+        /// Экран справки.
+        /// </summary>
+        Help,
         /// <summary>
         /// Игра.
         /// </summary>
         Game,
         /// <summary>
-        /// Игра стоит на паузе из-за того, что открыты карты.
+        /// Начало уровня.
         /// </summary>
-        PauseOnOpening,
+        LevelStart,
+        /// <summary>
+        /// Уровень пройден.
+        /// </summary>
+        LevelComplete,
+        /// <summary>
+        /// Игра показывает карты игроку.
+        /// </summary>
+        ShowCards,
         /// <summary>
         /// Конец игры, стандартный.
         /// </summary>
